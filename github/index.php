@@ -7,22 +7,7 @@
 </head>
 <body>
    <?php
-   // однострочный комментарий
-		# это также однострочный комментарий
-		/* это
-		многострочный
-		комментарий
-		здесь не будут выполняться команды
-		echo '<p>Привет мир!</p>'; */
-   /*echo "<h1>hello world 1</h1>";
-   print "<h1>hello world 2</h1>";*/
-/*
-   $name = "John";
-   $name = "Jane";   
-   echo '<h1> Привет,'.$name.'</h1>';*/
 
- /*  $title = 'hello world!';
-$title = 'page title';*/
 $fruit = 'apple';
 $winnie_pooh = "Hello, I'm Winnie. I have 2 {$fruit}s";
 // $winnieThePooh = "Hello, I'm Winnie";
@@ -40,7 +25,6 @@ const PAGE2 = 'new const';
 echo PAGE2;
 echo "<br><hr>";
 
-// ========== ДОБАВЛЕННЫЕ ФУНКЦИИ ==========
 
 // 1. Простая функция без параметров
 function showGreeting() {
@@ -90,7 +74,6 @@ $multiply = function($x, $y) {
 // 9. Стрелочная функция (PHP 7.4+)
 $square = fn($x) => $x * $x;
 
-// ========== ВЫЗОВ ФУНКЦИЙ ==========
 
 echo "<h3>▶ Вызов функций:</h3>";
 
